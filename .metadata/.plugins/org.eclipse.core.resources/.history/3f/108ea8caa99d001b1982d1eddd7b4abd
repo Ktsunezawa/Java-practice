@@ -1,0 +1,17 @@
+package extend.human;
+
+public class Enployee extends Human {
+	private String department;
+	
+	public Employee(String name, int age, String department) {
+		super(name, age);
+		this.department = department;
+	}
+	
+	public String getEmployeeProfile() {
+		String profile = "" + this.age + "";
+		profile += "" + this.department + "";
+		return profole;
+	}
+
+}
